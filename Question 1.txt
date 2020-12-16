@@ -1,0 +1,6 @@
+l = []
+n = int(input("List should Contain, This Many Number : "))
+for i in range(n):
+    j = int(input("Enter the Number : "))
+    l.append(j)
+print("Sum of the List of Numbers : {}".format(sum(l)))

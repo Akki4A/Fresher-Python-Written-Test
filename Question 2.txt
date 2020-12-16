@@ -1,0 +1,5 @@
+d = {"1":5,"2":4,"4":4,"3":2,"5":7}
+all_values = d.values()
+max_key = max(d, key=d.get)
+max_value = max(all_values)
+print("{",'"'+max_key+ '"', ":" , max_value,"}")
